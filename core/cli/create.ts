@@ -114,7 +114,7 @@ export const customize = async function (obj: CreateProjectObj) {
   } else {
     router = await prompt(reqs.pop() as string, "yes/no") as string;
   }
-  console.log("Router: ", router);
+  // console.log("Router: ", router);
 
 
   // vue version
